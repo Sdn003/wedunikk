@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WedUnik</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="./images/favicon.ico" />
+
+    <!-- Box icon link  -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!-- Remix icon Link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts Link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Dancing+Script:wght@700&family=Edu+SA+Beginner:wght@600&family=Oswald&family=Poppins:wght@300;400;600;700;900&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Swiper CSS  -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- Linking CSS  -->
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <div class="appWrapper">
+      <!-- Header Nav Bar  -->
+      <header id="header__sticky">
+        <div id="brandContainerDiv" class="brandContainer">
+          <a href="#cover_page" class="brandname">WedUnikk</a>
+              <img src="./images/wedunik_logo.png" alt="WedUnik_logo" />
+        </div>
+
+        <ul class="nav_list" id="navList_sidebar">
+          <li><a href="#cover_page">Home</a></li>
+          <li><a href="#venues">Venues</a></li>
+          <li><a href="#services">Categories</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#featured_Vendors">Featured Vendors</a></li>
+          <li><a href="#inhouse_services">Services</a></li>
+          <li><a href="#blogs">Blogs</a></li>
+          <li><a href="#contact_us">Contact</a></li>
+        </ul>
+
+        <div class="bx bx-menu" id="burger_icon"></div>
+      </header>
+      <hr />
+
+      <!-- Cover Page Wrapper  -->
+      <section class="landing_page_cover_wrapper" id="cover_page">
+        <div class="landing_page_cover">
+          <img src="./images/landing_page.jpeg" alt="landing_page_cover" />
+          <div class="landing_page_cover_textContent">
+            <h1>Your Wedding, Your Way</h1>
+            <h6>
+              Find the best wedding vendors with thousands of trusted reviews
+            </h6>
+          </div>
+        </div>
+      </section>
+
+      <!-- Venues Slider  -->
+      <section id="venues" class="venues">
+        <div class="heading">
+          <h4>Venues</h4>
+        </div>
+        <div class="swiper swiper1">
+          <div class="swiper-wrapper"></div>
+          <div
+            class="swiper-button-next swiper-navigation1-next"
+            id="next1"
+          ></div>
+          <div
+            class="swiper-button-prev swiper-navigation1-prev"
+            id="prev1"
+          ></div>
+        </div>
+      </section>
+
+      <!-- Popular Search Slider  -->
+      <section id="popular_search" class="popular_search">
+        <div class="heading">
+          <h4>Popular Searches</h4>
+        </div>
+        <div class="swiper swiper2">
+          <div class="swiper-wrapper"></div>
+
+          <div
+            class="swiper-button-next swiper-navigation2-next"
+            id="next2"
+          ></div>
+          <div
+            class="swiper-button-prev swiper-navigation2-prev"
+            id="prev2"
+          ></div>
+        </div>
+      </section>
+
+      <section id="services">
+        <div class="heading">
+          <h4>Wedding Categories</h4>
+        </div>
+        <div class="services__venue_container"></div>
+      </section>
+
+      <!-- Gallery Slider  -->
+      <section id="gallery">
+        <div class="heading">
+          <h4>Gallery</h4>
+        </div>
+        <div class="swiper swiper3">
+          <div class="swiper-wrapper"></div>
+
+          <div
+            class="swiper-button-next swiper-navigation3-next"
+            id="next3"
+          ></div>
+          <div
+            class="swiper-button-prev swiper-navigation3-prev"
+            id="prev3"
+          ></div>
+        </div>
+      </section>
+
+      <!-- Featured Vendors Slider  -->
+      <section id="featured_Vendors">
+        <div class="heading">
+          <h4>Featured Vendors</h4>
+        </div>
+        <div class="swiper swiper4">
+          <div class="swiper-wrapper"></div>
+
+          <div
+            class="swiper-button-next swiper-navigation4-next"
+            id="next4"
+          ></div>
+          <div
+            class="swiper-button-prev swiper-navigation4-prev"
+            id="prev4"
+          ></div>
+        </div>
+      </section>
+
+      <section id="inhouse_services">
+        <div class="heading">
+          <h4>Inhouse Services</h4>
+        </div>
+        <div class="inhouse_services_container">
+          <div class="inhouse_services_wrapper">
+            <div class="image_zoom_container image_wrapper">
+              <img
+                src="./images/inhouse_services/wedsta.jpeg"
+                class="image_zoom_container__images"
+              />
+            </div>
+            <div class="content_wrapper">
+              <h4>Wedsta</h4>
+              <p>At Home, Family Makeup Services</p>
+              <button class="knowMoreBtn">Know More</button>
+            </div>
+          </div>
+
+          <div class="inhouse_services_wrapper">
+            <div class="image_zoom_container image_wrapper">
+              <img
+                src="./images/inhouse_services/genie.jpeg"
+                class="image_zoom_container__images"
+              />
+            </div>
+            <div class="content_wrapper">
+              <h4>Genie Services</h4>
+              <p>At Home, Family Makeup Services</p>
+              <button class="knowMoreBtn">Know More</button>
+            </div>
+          </div>
+          <div class="inhouse_services_wrapper">
+            <div class="image_zoom_container image_wrapper">
+              <img
+                src="./images/inhouse_services/venue_booking_services.jpeg"
+                class="image_zoom_container__images"
+              />
+            </div>
+            <div class="content_wrapper">
+              <h4>Venue Booking Services</h4>
+              <p>At Home, Family Makeup Services</p>
+              <button class="knowMoreBtn">Know More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blogs Slider  -->
+      <section id="blogs">
+        <div class="heading">
+          <h4>Latest Blogs</h4>
+        </div>
+        <div class="swiper swiper5">
+          <div class="swiper-wrapper"></div>
+
+          <div
+            class="swiper-button-next swiper-navigation5-next"
+            id="next5"
+          ></div>
+          <div
+            class="swiper-button-prev swiper-navigation5-prev"
+            id="prev5"
+          ></div>
+        </div>
+      </section>
+
+      <!-- Contact Us  -->
+      <section id="contact_us">
+        <div class="heading">
+          <h4>How to Reach us?</h4>
+        </div>
+        <div class="company_intro_wrapper">
+          <h4>WedUnikk - Your Unique Wedding Planner</h4>
+          <p>Plan your wedding with Us</p>
+          <p>
+            WedUnikk is an Indian Wedding Planning Website and app where you can
+            find the best wedding vendors, with prices and reviews at the click
+            of a button. Whether you are looking to hire wedding planners in
+            India, or looking for the top photographers, or just some ideas and
+            inspiration for your wedding. WedUnikk can help you solve your
+            wedding planning woes through its unique features. With a checklist,
+            detailed vendor list, inspiration gallery and blog - you won't need
+            to spend hours planning a wedding anymore.
+          </p>
+        </div>
+        <div class="contact_details_container">
+          <!-- Mail & Mobile details Wrapper  -->
+          <div class="mail_mobile_blogAlert_details">
+            <h4 class="contact_h4_tag">Contact us to get best deals</h4>
+            <div class="mail_mobile_user_vendor_wrapper">
+                <div class="mail_details">
+              <h4 class="contact_h4_tag">For Vendors</h4>
+              <p class="contact_p_tag">vendors@wedunikk.com</p>
+              <p class="contact_p_tag">0124-6812765</p>
+            </div>
+            <div class="mobile_details">
+              <h4 class="contact_h4_tag">For Users</h4>
+              <p class="contact_p_tag">info@wedunikk.com</p>
+              <p class="contact_p_tag">0124-6812234</p>
+            </div>
+            </div>
+          
+
+            <div class="input_field">
+              <h4 class="contact_h4_tag">Get Latest Blog Alerts</h4>
+                <input type="text" placeholder="Email*" class="email_input" />
+                <button class="email_submit">Submit</button>
+            </div>
+            <div class="submit_details_btn">
+              <button class="submit_wedding">Submit Wedding</button>
+              <button class="register_vendor">Register Vendor</button>
+            </div>
+          </div>
+
+          <!-- Social Media Wrapper  -->
+          <div class="social_media_wrapper">
+            <h4 class="contact_h4_tag">Follow us on:&nbsp;</h4>
+            <ul>
+              <li>
+                <i class="bx bxl-facebook" style="color :#1877F2" ></i>&nbsp;<span>Facebook</span>
+              </li>
+              <li><i class="bx bxl-twitter"  style="color :#26a7de"></i>&nbsp;<span>Twitter</span></li>
+              <li>
+                <i class="bx bxl-pinterest"  style="color :#E60023"></i>&nbsp;<span>Pinterest</span>
+              </li>
+              <li>
+                <i class="bx bxl-instagram"  style="color :  #F77737"></i>&nbsp;<span>Instagram</span>
+              </li>
+              <li>
+                <i class="bx bxl-snapchat"  style="color :#FFFC00"></i>&nbsp;<span>Snapchat</span>
+              </li>
+              <li><i class="bx bxl-youtube"  style= "color :#FF0000"></i>&nbsp;<span>Youtube</span></li>
+            </ul>
+          </div>
+
+          <div class="mobile_app_store_wrapper">
+            <h4 class="contact_h4_tag">Get the WedUnikk App</h4>
+            <div class="app_store_button">
+              <img
+                src="./images/contact_us/apple_store.png"
+                alt="apple_store_logo"
+              />
+              <img
+                src="./images/contact_us/play_store.png"
+                alt="play_store_logo"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="footer">
+        <i class='bx bx-copyright' style="margin-left : 12px"></i>
+        <span>&nbsp;2023 - &nbsp;Terms and Conditions</span>
+        <p>Made with <i class='bx bxs-heart' style="color : crimson"></i> by Sudharsan S</p>
+      </div>
+
+      <!-- Chat With Us Button  -->
+      <div class="chat_with_us">
+        <i class="bx bx-message-rounded-dots" id="chat_icon"></i>
+        <span>Chat with Us</span>
+      </div>
+    </div>
+
+    <!-- Custom JavaScript  -->
+    <script src="./script.js"></script>
+
+    <!-- Scroll Reveal  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  </body>
+</html>
+
+
